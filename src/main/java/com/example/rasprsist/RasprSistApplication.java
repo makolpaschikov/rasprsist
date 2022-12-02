@@ -48,6 +48,7 @@ public class RasprSistApplication {
         Map<String, Object> wrapper = new HashMap<>();
         wrapper.put("info", details);
         return new MapInfoContributor(wrapper);
+
     }
 
 }
